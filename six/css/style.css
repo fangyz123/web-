@@ -1,0 +1,8 @@
+body{font-size: 12px;font-family: Arial;color: #808080;line-height: 2em}
+a{color: #727272;text-decoration: none;}
+a:hover{text-decoration: underline;}
+.ordinary{font-size: 14px;color: #b9f605;font-weight: bold;}
+.a{color: white;}
+.a:hover{color: #b9f605; text-decoration: none;}
+.special{color: #fdb306}
+.special:hover{color: #b9f605; text-decoration: none;}
