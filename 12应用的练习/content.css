@@ -1,0 +1,116 @@
+body {
+    font: 13px 'Microsoft YaHei',"\5b8b\4f53";/*\5b8b\4f53代表宋体*/
+    color: #666;
+    line-height: 1.5;
+}
+b {
+    font-weight: bold;
+}
+ul,li,p{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+	color: #666;
+	text-decoration: none;
+    cursor: auto;
+}
+.g-name:hover{
+    color: #e72f2f;
+}
+.wrap{
+	width:1200px;
+    height: 100%;
+    margin: 0px auto;
+}
+.g-list-wrap{
+	width:100%;
+}
+.justify {
+    text-align: justify;
+    text-justify:inter-ideograph;/* ie6-8 用表意文本来排齐内容*/
+}
+.justify-fix {
+       width: 100%;
+       height: 0;
+       vertical-align: top;
+       display: inline-block;
+       *display: inline; /* ie */
+       *zoom: 1; /* ie */
+       visibility: hidden;
+   }
+.MT30 {
+    margin-top: 30px;
+}
+.g-time,.g-place,.performerName,.g-price {
+    margin-top: 6px;
+}
+.g-list-wrap li {
+	width:196px;
+    height:auto;
+    display:inline-block;
+    vertical-align: top;
+    border:1px solid #ddd;
+    border-radius:4px;
+    padding:10px;
+    margin-bottom: 30px;
+}
+.g-list-wrap .g-img {
+    display: block;
+    text-align: center;
+    height: 255px;
+    background: #000;
+}
+.g-list-wrap .g-img img {
+    width: 100%;
+    height: 100%;
+}
+.g-list-wrap .g-img img:hover{
+	opacity:0.7;
+	filter(alpha=0.7);
+}
+.g-list-wrap .g-more-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.3);
+    /*CSS3:rgba(red,green,blue,opacity),opacity:0~1*/
+    background: #000 \9;/*IE9-*/
+    filter:alpha(opacity=30);
+    /*ie低版本不支持opacity的 ,只支持filter */
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    display: none;
+}
+.g-list-wrap .g-name {
+    margin-top: 15px;
+    height: 38px;
+    line-height: 19px;
+    overflow: hidden;
+}
+.sole {
+    display: inline-block;
+    background: #e72f2f;
+    color: #fff;
+    border-radius: 2px;/*CSS3设置圆角*/
+    padding: 0 3px;
+    margin-right: 5px;
+}
+.col-theme {
+    color: #e72f2f;
+}
+.place-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background: url("images/icon.png") 0 -343px no-repeat;
+    margin-right: 10px;
+}
+.g-list-wrap .a-link {
+    color: #37a;
+}

@@ -1,0 +1,35 @@
+.main{
+	width:782px;
+	height:220px;
+	border:1px solid #ccc;
+}
+.lefter{
+	padding: 10px;
+	float: left;
+}
+.righter{
+	width: 600px;
+	padding: 10px;
+	float: left;
+}
+p{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	text-indent: 24px;
+}
+h1{
+	font-size: 18px;
+	line-height: 24px;
+	font-family: "黑体";
+}
+b{
+	font-size: 12px;
+	line-height: 24px;
+	color: #900;
+}
+em{
+	font-weight: bold;
+	color: #006;
+	font-style: normal;
+}

@@ -1,0 +1,89 @@
+.mod{
+    width: 240px;
+}
+.mod .hd {
+    height: auto;
+    padding: 0 10px;
+    /*border-bottom: 1px solid #ececec;
+    border-top: 2px solid #c7c7c7;*/
+    overflow: hidden;
+    /*overflow 属性规定当内容溢出元素框时发生的事情。hidden
+	内容会被修剪，并且其余内容是不可见的。*/
+}
+.mod .hd h3 {
+    font: 400 20px/26px "Microsoft YaHei",\5FAE\8F6F\96C5\9ED1,tahoma;
+    color: #069;
+    text-align: left;
+    float: left;
+    margin:10px 0;
+}
+.mod .hd h3 .dec {
+    display: block;
+    font: 400 9px/12px arial;
+    color: #999;
+    text-transform: uppercase;
+    /*text-transform 属性控制文本的大小写。uppercase
+    定义仅有大写字母。*/
+}
+ul,ol{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.olist li{
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	margin-left: 10px;
+	padding: 4px 0;
+	padding-right: 12px;
+	border-bottom: 1px dotted #ccc;
+	background: url("images/sp_icon.png") no-repeat right 14px;
+}
+.olist .listnum{
+	height: auto;
+	width: auto;
+	display: inline;
+	line-height: 12px;
+	margin-right: 8px;
+	font-size: 16px;
+	color: #f63;
+	padding: 1px 2px 1px 1px;
+	font-family: arial;
+	font-style: italic;
+	vertical-align: baseline;
+}
+.olist .highlight {
+    background: #f63;
+    color: #fff;
+}
+.schedule {
+    margin-top: 20px;
+    border-top: 1px solid #eeeff1;
+    border-left: 1px solid #eeeff1;
+    width: 238px;
+}
+.schedule ul li {
+    float: left;
+    width: 80px;
+    height: 40px;
+    padding-left: 26px;
+    padding-right: 12px;
+    border-right: 1px solid #eeeff1;
+    border-bottom: 1px solid #eeeff1;
+    background: url("images/sp_icon_menu.png") no-repeat 10px 12px;
+}
+.schedule ul li a {
+    display: block;
+    line-height: 40px;
+    padding-right: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    background: url("images/sp_icon.png") no-repeat right 16px;
+}
+.ulist li a:visited {
+    color: #222;
+}
+.ulist li a:link {
+    color: #222;
+}

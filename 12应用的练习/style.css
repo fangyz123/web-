@@ -1,0 +1,27 @@
+.imgage{
+	width: 250px;
+	height: 220px;
+	margin: 1px;
+	border: 1px solid #ccc;
+	float: left;
+}
+.desc{
+	font: 14px '宋体';
+	text-align: center;
+}
+a{
+	opacity: 0.5;
+}
+a:hover{
+	opacity: 1;
+}
+div .imgage image{
+	display: inline;
+	margin: 3px;
+	border: 1px solid #bebebe;
+	height: 200px;
+	height: 160px;
+}
+div .imgage a:hover img{
+	border: 1px solid #333;
+}
