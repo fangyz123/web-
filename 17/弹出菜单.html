@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>弹出菜单</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	.menu{
+		width:510px;
+		height: 25px;
+		position: relative;
+		margin: 50px 0px; 
+	}
+	.menu ul{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	.menu ul li{
+		width: 100px;
+		height: 25px;
+		border: 1px solid #ccc;
+		float: left;
+	}
+	.menu ul li a{
+		display: block;
+		width: 100px;
+		height: 25px;
+		color: #333;
+		font: 14px/25px "黑体";
+		background: #69f;
+		text-align: center;
+		text-decoration: none;
+	}
+	.menu ul li ul{
+		display: none;
+		margin: 0px;
+		width: 100px;
+	}
+	.menu ul li a:hover{
+		font-weight: bold;
+		color: #f60;
+		background: #93b6ff;
+	}
+	.menu ul li:hover ul{
+		display: block;
+		position: relative;
+		left: 0px;
+		top: 0px;
+	}
+	.menu ul li:hover ul li a{
+		background: #c8daff;
+		font-size: 12px;
+	}
+	.menu ul li:hover ul li a:hover{
+		background: #86adff;
+		color: #006;
+	}
+	</style>
+</head>
+<body>
+	<div class="menu">
+	<ul>
+    <li><a href="#">娱乐</a>
+     	<ul>
+        <li><a href="#">影视</a></li>
+        <li><a href="#">电影</a></li>
+        <li><a href="#">明星</a></li>
+        <li><a href="#">音乐</a></li>
+     	</ul>
+    </li>
+    <li><a href="#">科技</a>
+        <ul>
+        <li><a href="#">电脑</a></li>
+        <li><a href="#">数码</a></li>
+        <li><a href="#">软件</a></li>
+        <li><a href="#">下载</a></li>
+        </ul>
+     </li>
+    <li><a href="#">新闻</a>
+        <ul>
+        <li><a href="#">国内新闻</a></li>
+        <li><a href="#">国际新闻</a></li>
+        <li><a href="#">军事新闻</a></li>
+        <li><a href="#">体育新闻</a></li>
+        <li><a href="#">时事新闻</a></li>
+        </ul>
+     </li>
+    <li><a href="#">游戏</a>
+        <ul>
+        <li><a href="#">电脑游戏</a></li>
+        <li><a href="#">电视游戏</a></li>
+        <li><a href="#">网页游戏</a></li>
+        <li><a href="#">休闲游戏</a></li>
+        </ul>
+    </li>
+    <li><a href="#">财经</a>
+        <ul>
+        <li><a href="#">财经动态</a></li>
+        <li><a href="#">股票走势</a></li>
+        <li><a href="#">基金投资</a></li>
+        </ul>
+    </ul>
+</div>
+
+</body>
+</html>
