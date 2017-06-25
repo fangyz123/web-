@@ -106,10 +106,6 @@ li{
 	height: 200px; 
 	overflow: hidden; 
 	margin-top:10px}
-#NewsPic a { 
-    overflow: visible; 
-	border:0;  
-	text-decoration: none; }
 #NewsPic .Picture { 
     position: absolute; 
 	left: 0; 
